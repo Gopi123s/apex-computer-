@@ -1,0 +1,23 @@
+{% extends 'basic.html' %}
+{% block title%} About us{% endblock %}
+{% block content %} 
+{% load static%}
+<div class="container mt-5">
+    <div class="row">
+<div class="card col-sm-12 col-md-4" style="width: 18rem;">
+    
+    <img src="{% static 'img/cc.jpg' %}" class="card-img-top " alt="...">
+    <div class="card-body col-sm-12 col-md-8">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Contact us</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+{% endblock %}
